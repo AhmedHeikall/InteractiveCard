@@ -6,7 +6,7 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 
 
  ### Live Demo:
-- 
+-  coming soon
 
 ### The challenge
 Users should be able to:
@@ -26,7 +26,7 @@ Users should be able to:
  
 ### How to use it
 ```bash
-npm install redux- react-redux
+npm install redux react-redux
 npm install @reduxjs/toolkit
 npm start
 ```
