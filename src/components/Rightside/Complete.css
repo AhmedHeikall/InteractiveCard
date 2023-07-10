@@ -1,0 +1,37 @@
+.complete {
+  margin-top: 5rem;
+  padding: 0 0.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.complete img {
+  max-width: 8rem;
+  margin-bottom: 3.8rem;
+}
+.complete h1 {
+  font-size: 2.8rem;
+  letter-spacing: 0.12rem;
+  font-weight: 500;
+  color: var(--Very-dark-violet);
+  margin-bottom: 3.4rem;
+}
+
+.complete p {
+  color: var(--Dark-grayish-violet);
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .complete {
+    max-width: 38.1rem;
+    width: 100%;
+    margin-top: 0.8rem;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

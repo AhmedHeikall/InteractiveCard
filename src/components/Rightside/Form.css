@@ -1,0 +1,35 @@
+form {
+  margin-top: 5rem;
+  padding: 0 0.8rem;
+  display: block;
+}
+
+.form-exp-date {
+  display: flex;
+  gap: 1rem;
+}
+
+.date {
+  display: flex;
+  gap: 0.8rem;
+}
+
+@media screen and (min-width: 1440px) {
+  form {
+    max-width: 38.1rem;
+    margin-top: 0.3rem;
+    padding: 0;
+  }
+
+  #month,
+  #year {
+    width: 8rem;
+  }
+
+  .form-exp-date {
+    gap: 2.8rem;
+  }
+  .date {
+    gap: 1rem;
+  }
+}

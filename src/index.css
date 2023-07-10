@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+}
+
+:root {
+  --active-input-border: linear-gradient(
+    90deg,
+    hsl(249, 99%, 64%),
+    hsl(278, 94%, 30%)
+  );
+  --red: hsl(0, 100%, 66%);
+  --White: hsl(0, 0%, 100%);
+  --Light-grayish-violet: hsl(270, 3%, 87%);
+  --Dark-grayish-violet: hsl(279, 6%, 55%);
+  --Very-dark-violet: hsl(278, 68%, 11%);
+
+  font-size: 10px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 100vh;
+
+  background-image: url(../src/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 24rem;
+}
+
+main {
+  max-width: 37.5rem;
+  padding: 3.2rem 1.6rem;
+  margin: 0 auto;
+}
+
+/* Media for desktop */
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(../src/assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 33.5% 100%;
+  }
+
+  main {
+    max-width: 111.2rem;
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 12.7rem;
+  }
+}

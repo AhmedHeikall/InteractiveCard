@@ -1,0 +1,26 @@
+.btn {
+  display: block;
+  margin-top: 2.8rem;
+  height: 5.4rem;
+  width: 100%;
+
+  border: 0;
+  border-radius: 0.8rem;
+  background-color: var(--Very-dark-violet);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: hsla(278, 68%, 11%, 80%);
+}
+
+@media screen and (min-width: 1440px) {
+  .btn {
+    margin-top: 1.8rem;
+    font-size: 2rem;
+  }
+}
